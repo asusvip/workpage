@@ -14,8 +14,8 @@ let disabletro = false;  // 是否关闭trojan, 设置为true时关闭，false�
 
 // CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
-    'mfa.gov.ua#SG', 'saas.sin.fan#HK', 'store.ubi.com#JP','cf.130519.xyz#KR','cf.008500.xyz#HK', 
-    'cf.090227.xyz#SG', 'cf.877774.xyz#HK','cdns.doon.eu.org#JP','sub.danfeng.eu.org#TW','cf.zhetengsha.eu.org#HK'
+   'mfa.gov.ua#SG','cf.090227.xyz#SG','store.ubi.com#SG','cf-cdn.mocn.top#US','www.wto.org#US','cf.0sm.com#US', 
+     'cf.877774.xyz#HK','www.nexusmods.com#HK','saas.sin.fan#HK','cdns.doon.eu.org#JP','openai.com#JP'
 ];  // 在此感谢各位大佬维护的优选域名
 const WS_READY_STATE_OPEN = 1;
 const WS_READY_STATE_CLOSING = 2;
